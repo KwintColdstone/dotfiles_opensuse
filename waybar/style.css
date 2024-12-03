@@ -1,0 +1,39 @@
+* {
+    border:        none;
+    border-radius: 0;
+    font-family:   "agave nerd font", "FontAwesome 7 Free", monospace;
+    font-size:     15px;
+    font-weight:    bold;
+    box-shadow:    none;
+    text-shadow:   none;
+    transition-duration: 0s;
+}
+
+window#waybar {
+    color: #ebdbb2;
+    background-color: rgba(60, 56, 54, 0.4);
+}
+
+#custom-leftbracket {
+    margin-left: 40px;
+}
+
+#workspaces {
+    margin: 0 5px;
+    margin-left: 5px;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #d79921;
+}
+
+#workspaces button.visible {
+    color: #fabd2f;
+}
+
+#network, 
+
+#clock {
+    margin: 0px 20px 0px 20px;
+}
